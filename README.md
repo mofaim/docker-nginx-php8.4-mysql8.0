@@ -1,10 +1,10 @@
-# PHP 8 development environment with PHP-FPM, Nginx and MySQL 8.0, using Docker and Docker Compose
+# PHP 8.4 development environment with PHP-FPM, Nginx and MySQL 8.0, using Docker and Docker Compose
 
 You need to have Docker and Docker Compose installed on your server to proceed using this PHP environment.
 
 The following three separate service containers will be used:
 
-- An `app` service running PHP 8 FPM.
+- An `app` service running PHP 8.4 FPM.
 - A `db` service running MySQL 8.0.
 - An `nginx` service that uses the `app` service to parse PHP code before serving the application to the final user.
 
